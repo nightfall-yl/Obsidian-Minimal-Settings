@@ -79,11 +79,11 @@ Hotkeys can be customized to perform the following actions:
 - Cycle table width options
 - Cycle iframe width options
 
-## i18n / 国际化
+## i18n
 
-设置页面支持多语言，自动跟随 Obsidian 界面语言：
+The settings page supports multiple languages, automatically following Obsidian's interface language:
 
 - English
-- 简体中文
+- Simplified Chinese
 
 Language follows Obsidian's interface language setting automatically. No manual switching required.
