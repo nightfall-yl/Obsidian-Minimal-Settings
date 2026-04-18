@@ -1,25 +1,25 @@
-Full documentation at [minimal.guide](https://minimal.guide/)
+完整文档请访问 [minimal.guide](https://minimal.guide/)
 
-## Overview
+## 概述
 
-This plugin accompanies [Minimal Theme](https://github.com/kepano/obsidian-minimal), allowing you to customize the theme from the Obsidian Settings panel. This plugin is not required to use Minimal Theme, but highly recommended.
+本插件为 [Minimal 主题](https://github.com/kepano/obsidian-minimal) 的配套插件，允许你在 Obsidian 设置面板中自定义主题。本插件不是使用 Minimal 主题的必要条件，但强烈推荐安装。
 
-## Usage
+## 使用方法
 
-- Requires Minimal Theme
-- Works with [Hider Plugin](https://github.com/kepano/obsidian-hider) to simplify the Obsidian UI by removing the menu ribbon, tooltips, title bar, scrollbars, etc. This functionality was previously included in Minimal Theme but has now been separated out.
+- 需要安装 Minimal 主题
+- 可搭配 [Hider 插件](https://github.com/kepano/obsidian-hider) 简化 Obsidian 界面，隐藏菜单栏、工具提示、标题栏、滚动条等。这些功能此前包含在 Minimal 主题中，现已独立拆分。
 
-## Settings
+## 设置
 
-### Color scheme
+### 配色方案
 
-Switch between preset color schemes or create your own using Style Settings plugin.
+在预设配色方案之间切换，或使用 Style Settings 插件创建自定义配色。
 
 - Atom
 - Ayu
 - Catppuccin
 - Dracula
-- E-ink (beta)
+- E-ink（测试版）
 - Everforest
 - Flexoki
 - Gruvbox
@@ -30,60 +30,58 @@ Switch between preset color schemes or create your own using Style Settings plug
 - Sky
 - Things
 
+### 背景样式
 
-### Background styles
+提供多种浅色/深色模式背景替代方案，可通过快捷键切换：
 
-Several alternate light/dark mode background are availably. These options can be toggled via hotkeys
+- **默认** — 侧边栏使用略深的背景色
+- **低对比度** — 侧边栏与主面板使用相同背景色
+- **高对比度（仅浅色模式）** — 深色侧边栏 + 浅色主面板
+- **纯黑（仅深色模式）** — 侧边栏和主面板均为纯黑
 
-- **Default** uses a slighty darker background for the sidebar
-- **Low contrast** uses the same background for sidebar and main panel
-- **High contrast (light mode only)** uses dark sidebar and light main panel
-- **True black (dark mode only)** uses pure black sidebar and main panel
+### 功能
 
-### Features
+- 主导航文字标签
+- 彩色窗口边框
+- 彩色激活状态
+- 彩色标题
+- 极简状态栏
+- 侧边栏截断文件名
+- 工作区分隔线
+- 专注模式
+- 内部/外部链接下划线
+- 媒体最大化
+- **禁用图片缩放** — 关闭图片缩放/灯箱效果，允许使用原生拖拽调整大小
 
-- Text labels for primary navigation
-- Colorful window frame
-- Colorful active states
-- Colorful headings
-- Minimal status bar
-- Trim file names in sidebars
-- Workspace borders
-- Focus mode
-- Underline internal/external links
-- Maximize media
-- **Disable image zoom** — Turn off the image zoom/lightbox effect, allows native resize handles to work
+### 自定义
 
-### Customization
+- 字体、字号和行宽设置
+- 链接下划线
+- 专注模式
+- 自定义图标
+- 图片网格
+- 表格、图片和 Iframe 的宽度设置
 
-- Fonts, font sizes, and line width settings
-- Underline links
-- Focus mode
-- Custom icons
-- Image grids
-- Width settings for tables, images and iframes
+## 快捷键
 
+可自定义以下操作的快捷键：
 
-## Hotkeys
+- 切换浅色/深色模式
+- 循环切换浅色模式样式
+- 循环切换深色模式样式
+- 切换配色方案
+- 增大/减小字号
+- 切换图片网格
+- 切换侧边栏分隔线
+- 循环切换图片宽度选项
+- 循环切换表格宽度选项
+- 循环切换 Iframe 宽度选项
 
-Hotkeys can be customized to perform the following actions:
+## 国际化
 
-- Toggle light/dark mode
-- Cycle between light mode styles
-- Cycle between dark mode styles
-- Switch between color schemes
-- Increase/decrease font size
-- Toggle image grids
-- Toggle sidebar borders
-- Cycle image width options
-- Cycle table width options
-- Cycle iframe width options
-
-## i18n
-
-The settings page supports multiple languages, automatically following Obsidian's interface language:
+设置页面支持多语言，自动跟随 Obsidian 界面语言：
 
 - English
-- Simplified Chinese
+- 简体中文
 
-Language follows Obsidian's interface language setting automatically. No manual switching required.
+语言跟随 Obsidian 界面语言设置自动切换，无需手动配置。
